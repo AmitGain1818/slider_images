@@ -12,18 +12,18 @@ void main() {
           centerTitle: true,
           backgroundColor: Colors.cyan,
         ),
-        body: Iamges(),
+        body: Images(),
       ),
     ),
   );
 }
 
-class Iamges extends StatefulWidget {
+class Images extends StatefulWidget {
   @override
-  _IamgesState createState() => _IamgesState();
+  _ImagesState createState() => _ImagesState();
 }
 
-class _IamgesState extends State<Iamges> {
+class _ImagesState extends State<Images> {
   int imageschange = 1;
 
   void changeImages() {
